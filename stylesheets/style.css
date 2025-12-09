@@ -1,4 +1,4 @@
-/* ======== ESTILO GLOBAL ======== */
+/* ======== fuentes ======== */
 body {
   background: #1e1e1e;
   color: #f0f0f0;
@@ -7,7 +7,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Animación general de entrada */
+/* Animación principal */
 section, header, .contenedor, footer {
   animation: fadeIn 0.9s ease forwards;
   opacity: 0;
@@ -16,7 +16,7 @@ section, header, .contenedor, footer {
   to { opacity: 1; transform: none; }
 }
 
-/* ======== HEADER PERFIL ======== */
+/* ======== header ======== */
 header {
   display: flex;
   justify-content: center;
@@ -51,11 +51,11 @@ header {
   transform: scale(1.06);
 }
 
-/* Nombre y descripción */
+/* nombre y descripción */
 .info h1 { margin: 0; font-size: 38px; }
 .info p { margin-top: 5px; color: #ccc; }
 
-/* ======== CONTACTO ICONOS ======== */
+/* ======== iconos contacto ======== */
 .infocontacto { margin-left: auto; display: flex; flex-direction: column; gap: 8px; }
 .contacto-item { display: flex; align-items: center; gap: 8px; transition: .3s; }
 .contacto-item i { font-size: 22px; transition: .3s; }
@@ -73,7 +73,7 @@ header {
 .contacto-item:hover a { color: #fff; }
 .contacto-item:hover i { color: #f7d75c; transform: rotate(-8deg); }
 
-/* ======== NAV ======== */
+/* ======== nav ======== */
 nav { background: #282828; padding: 12px 0; }
 nav ul { list-style: none; display: flex; justify-content: center; gap: 35px; }
 nav a {
@@ -83,7 +83,7 @@ nav a {
   position: relative;
 }
 
-/* Subrayado suave */
+/* animación subrayado */
 nav a::after {
   content: "";
   position: absolute;
@@ -96,7 +96,7 @@ nav a::after {
 }
 nav a:hover::after { width: 100%; }
 
-/* ======== INTRO ======== */
+/* ======== intro ======== */
 .intro {
   width: 80%;
   margin: 30px auto;
@@ -110,7 +110,6 @@ nav a:hover::after { width: 100%; }
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
 
-/* ======== LAYOUT PRINCIPAL ======== */
 .contenedor {
   display: flex;
   width: 80%;
@@ -119,7 +118,7 @@ nav a:hover::after { width: 100%; }
   align-items: flex-start;
 }
 
-/* ======== ESTUDIOS ======== */
+/* ======== estudios ======== */
 .estudios {
   flex: 3;
   background: #2c2c2c;
@@ -139,7 +138,7 @@ th { background: #444; }
 tr { transition: background .3s; }
 tr:hover { background: #4d4d4d; }
 
-/* ======== BARRA LATERAL ======== */
+/* ======== barra lateral ======== */
 .lateral {
   flex: 1;
   background: #151515;
@@ -155,7 +154,7 @@ tr:hover { background: #4d4d4d; }
 
 .lateral h3 { margin-bottom: 10px; border-bottom: 2px solid #444; padding-bottom: 5px; }
 
-/* ======== CONTACTO ======== */
+/* ======== contacto ======== */
 .contacto {
   width: 60%;
   margin: 40px auto;
@@ -183,7 +182,7 @@ input:focus, textarea:focus {
   outline: 2px solid #f7d75c;
 }
 
-/* Botón con hover suave */
+/* animación hover */
 button {
   padding: 12px;
   border: none;
@@ -198,7 +197,7 @@ button:hover {
   transform: translateY(-3px) scale(1.03);
 }
 
-/* ======== FOOTER ======== */
+/* ======== footer ======== */
 footer { 
   text-align: center; 
   padding: 25px; 
@@ -207,3 +206,5 @@ footer {
 }
 footer:hover { opacity: 0.9; }
 footer a { color: #f7d75c; }
+
+/* El apartado de contáctame y las animaciones como la de la barra de navegación por ejemplo, las he cogido de un video que me he visto para aprender a hacer la página */
