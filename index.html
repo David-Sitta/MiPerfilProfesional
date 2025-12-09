@@ -2,19 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi perfil profesional</title>
+    <title>Mi Perfil Profesional</title>
 
-    <!-- ICONOS FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
 
+    <!-- ===== perfil ===== -->
     <header>
         <div class="perfil">
-            <img src="images/gunon.jpg">
+            <img src="images/foto.jpg" alt="Foto de perfil">
 
             <div class="info">
                 <h1>David Sitta</h1>
@@ -25,27 +24,28 @@
 
                 <div class="contacto-item">
                     <i class="fa-brands fa-github"></i>
-                    <a href="https://github.com">DavidSitta</a>
+                    <a href="https://github.com/David-Sitta">David-Sitta</a>
                 </div>
 
                 <div class="contacto-item">
                     <i class="fa-brands fa-instagram"></i>
-                    <a href="#">DavidSitta</a>
+                    <a href="https://www.instagram.com/muchi.ds/">Muchids</a>
                 </div>
 
                 <div class="contacto-item">
                     <i class="fa-brands fa-x-twitter"></i>
-                    <a href="https://x.com">DavidSitta</a>
+                    <a href="https://x.com/gurkitamayo">DavidSitta</a>
                 </div>
 
             </div>
         </div>
     </header>
 
-
+    <!-- ===== nav ===== -->
     <nav>
         <ul>
             <li><a href="#intro">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
@@ -53,82 +53,116 @@
 
     <main>
 
-        <!-- INTRODUCCIÓN -->
+        <!-- ===== intro ===== -->
         <section id="intro" class="intro">
             <h2>Sobre mí</h2>
-            <p>Soy estudiante de Administración de Sistemas Informáticos en Red (ASIR) con interés en la ciberseguridad, big data y la inteligencia artificial.</p>
+            <p>Soy un estudiante de ASIR con interés en ciberseguridad, redes, big data y administración de sistemas.</p>
         </section>
 
-        <!-- CONTENIDO PRINCIPAL (DOS COLUMNAS) -->
         <div class="contenedor">
 
-            <!-- ESTUDIOS -->
+            <!-- estudios -->
             <section class="estudios">
                 <h2>Formación Académica</h2>
+
                 <table>
                     <thead>
                         <tr>
                             <th>Educación</th>
-                            <th>Centro educativo</th>
-                            <th>Periodo</th>
+                            <th>Centro</th>
+                            <th>Año</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr><td>1º ESO</td><td>IES Blás Infante</td><td>2019-2020</td></tr>
-                        <tr><td>2º ESO - 4º ESO</td><td>IES Dunas de las Chapas</td><td>2020-2023</td></tr>
-                        <tr><td>1º Bach TEC - 2º Bach TEC</td><td>IES Guadalpín</td><td>2023-2025</td></tr>
+                        <tr><td>2º - 4º ESO</td><td>IES Dunas de las Chapas</td><td>2020-2023</td></tr>
+                        <tr><td>1º - 2º Bachillerato TEC</td><td>IES Guadalpín</td><td>2023-2025</td></tr>
                         <tr><td>1º ASIR</td><td>IES Medina Azahara</td><td>2025-2026</td></tr>
                     </tbody>
                 </table>
             </section>
 
-            <!-- BARRA LATERAL -->
-<aside class="lateral">
 
-    <h3><i class="fa-solid fa-book-open"></i> Cursos Realizados</h3>
-    <div class="lateral-card">
-        <i class="fa-solid fa-network-wired"></i>
-        <span>Cisco 1 - Fundamentos de redes</span>
-    </div>
-    <div class="lateral-card">
-        <i class="fa-solid fa-terminal"></i>
-        <span>Administración Linux</span>
-    </div>
-    <div class="lateral-card">
-        <i class="fa-solid fa-shield-halved"></i>
-        <span>Introducción a Ciberseguridad</span>
-    </div>
+            <!-- barra lateral -->
+            <aside class="lateral">
 
-    <h3><i class="fa-solid fa-language"></i> Idiomas</h3>
-    <div class="lateral-card">
-        <i class="fa-solid fa-flag"></i>
-        <span>Español — Nativo</span>
-    </div>
-    <div class="lateral-card">
-        <i class="fa-solid fa-globe"></i>
-        <span>Inglés — Avanzado</span>
-    </div>
-    <div class="lateral-card">
-        <i class="fa-solid fa-comments"></i>
-        <span>Italiano — Avanzado</span>
-    </div>
+                <h3><i class="fa-solid fa-book-open"></i> Cursos Realizados</h3>
+                <div class="lateral-card">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <span>Cisco - Packet tracer básico</span>
+                </div>
+<!-- Aqui voy a poner placeholders porque aún no he hecho nada -->
+                <div class="lateral-card">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span>Curso 2</span>
+                </div>
 
-</aside>
+                <div class="lateral-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Curso 3</span>
+                </div>
+
+                <h3><i class="fa-solid fa-language"></i> Idiomas</h3>
+                <div class="lateral-card">
+                    <i class="fa-solid fa-flag"></i>
+                    <span>Español — Nativo</span>
+                </div>
+
+                <div class="lateral-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>Inglés — Avanzado</span>
+                </div>
+
+                <div class="lateral-card">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Italiano — Avanzado</span>
+                </div>
+
+            </aside>
 
         </div>
 
-        <!-- CONTACTO -->
+
+        <!-- ===== proyectos ===== -->
+        <section id="proyectos" class="proyectos">
+            <h2>Proyectos</h2>
+
+            <div class="proyectos-grid">
+
+                <div class="proyecto-card">
+                    <h3>Página de HTML y CSS</h3>
+                    <p>¡Es esta página!</p>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Proyecto 2</h3>
+                    <p>Aún no he hecho nada más.</p>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Proyecto 3</h3>
+                    <p>Lo mismo</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===== contacto ===== -->
         <section id="contacto" class="contacto">
             <h2>Contáctame</h2>
-            <form>
+
+            <form action="mailto:davidds1201@gmail.com" method="POST" enctype="text/plain">
+
                 <label>Nombre:</label>
-                <input type="text">
+                <input type="text" name="nombre" required>
 
                 <label>Email:</label>
-                <input type="email">
+                <input type="email" name="email" required>
 
                 <label>Mensaje:</label>
-                <textarea rows="5"></textarea>
+                <textarea rows="5" name="mensaje" required></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
@@ -137,9 +171,10 @@
     </main>
 
 
+    <!-- ===== footer ===== -->
     <footer>
-        <p>&copy; 2025 Mi épico perfil profesional.</p>
-        <p>Contacto: <a href="mailto:davidds1201@gmail.com">davidds1201@gmail.com</a></p>
+        <p>&copy; 2025 Mi perfil profesional.</p>
+        <p>Correo: <a href="mailto:davidds1201@gmail.com">davidds1201@gmail.com</a></p>
     </footer>
 
 </body>
