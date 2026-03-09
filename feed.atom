@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mi Perfil Profesional</title>
+  <link href="https://david-sitta.github.io/MiPerfilProfesional"/>
+  <link rel="self" href="https://david-sitta.github.io/MiPerfilProfesional/feed.atom"/>
+  <id>https://david-sitta.github.io/MiPerfilProfesional/</id>
+  <subtitle>Estudiante de ASIR - IES Medina Azahara</subtitle>
+  <updated>2026-03-09T12:00:00+01:00</updated>
+  <rights>1º ASIR - IES Medina Azahara</rights>
+  <icon>https://david-sitta.github.io/MiPerfilProfesional/images/gunon.jpg</icon>
+  <logo>https://david-sitta.github.io/MiPerfilProfesional/images/gunon.jpg</logo>
+  <author>
+    <name>David Sitta</name>
+    <email>davidds1201@gmail.com</email>
+    <uri>https://david-sitta.github.io/MiPerfilProfesional</uri>
+  </author>
+
+  <entry>
+    <title>Sobre mí</title>
+    <link href="https://david-sitta.github.io/MiPerfilProfesional/#intro"/>
+    <id>https://david-sitta.github.io/MiPerfilProfesional/#intro</id>
+    <updated>2026-03-09T12:00:00+01:00</updated>
+    <summary>Soy un estudiante de ASIR con interés en ciberseguridad, redes, big data y administración de sistemas.</summary>
+    <category term="presentación"/>
+  </entry>
+
+  <entry>
+    <title>Proyectos</title>
+    <link href="https://david-sitta.github.io/MiPerfilProfesional/#proyectos"/>
+    <id>https://david-sitta.github.io/MiPerfilProfesional/#proyectos</id>
+    <updated>2026-03-09T12:00:00+01:00</updated>
+    <summary>¡Es esta página!</summary>
+    <category term="proyectos"/>
+  </entry>
+
+  <entry>
+    <title>Contáctame</title>
+    <link href="https://david-sitta.github.io/MiPerfilProfesional/#contacto"/>
+    <id>https://david-sitta.github.io/MiPerfilProfesional/#contacto</id>
+    <updated>2026-03-09T12:00:00+01:00</updated>
+    <summary>Correo: davidds1201@gmail.com</summary>
+    <category term="contacto"/>
+  </entry>
+
+</feed>

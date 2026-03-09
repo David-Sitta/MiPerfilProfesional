@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Perfil Profesional</title>
+    <link>https://david-sitta.github.io/MiPerfilProfesional</link>
+    <description>Estudiante de ASIR - IES Medina Azahara</description>
+    <category>tecnología/ciberseguridad/redes</category>
+    <copyright>1º ASIR - IES Medina Azahara</copyright>
+    <image>
+      <url>https://david-sitta.github.io/MiPerfilProfesional/images/gunon.jpg</url>
+      <title>Mi Perfil Profesional</title>
+      <link>https://david-sitta.github.io/MiPerfilProfesional</link>
+      <width>30</width>
+      <height>30</height>
+    </image>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 09 Mar 2026 12:00:00 +0100</lastBuildDate>
+    <webMaster>davidds1201@gmail.com</webMaster>
+
+    <item>
+      <title>Sobre mí</title>
+      <description>Soy un estudiante de ASIR con interés en ciberseguridad, redes, big data y administración de sistemas.</description>
+      <link>https://david-sitta.github.io/MiPerfilProfesional/#intro</link>
+      <author>davidds1201@gmail.com</author>
+      <category>presentación</category>
+      <pubDate>Mon, 09 Mar 2026 12:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Proyectos</title>
+      <description>¡Es esta página!</description>
+      <link>https://david-sitta.github.io/MiPerfilProfesional/#proyectos</link>
+      <author>davidds1201@gmail.com</author>
+      <category>proyectos</category>
+      <pubDate>Mon, 09 Mar 2026 12:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Contáctame</title>
+      <description>Correo: davidds1201@gmail.com</description>
+      <link>https://david-sitta.github.io/MiPerfilProfesional/#contacto</link>
+      <author>davidds1201@gmail.com</author>
+      <category>contacto</category>
+      <pubDate>Mon, 09 Mar 2026 12:00:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
